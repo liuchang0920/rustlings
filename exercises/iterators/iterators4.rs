@@ -13,6 +13,19 @@ pub fn factorial(num: u64) -> u64 {
     // For an extra challenge, don't use:
     // - recursion
     // Execute `rustlings hint iterators4` for hints.
+
+    // not necessarily need to know the impl detail.
+    let mut num = num;
+    let mut result: u64 = 1;
+    loop {
+        if num > 1 {
+            result = result * num * (num - 1);
+            num = num - 2;
+        } else {
+            break;
+        }
+    }
+    result
 }
 
 #[cfg(test)]

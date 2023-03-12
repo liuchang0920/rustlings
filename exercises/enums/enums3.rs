@@ -6,6 +6,11 @@
 
 enum Message {
     // TODO: implement the message variant types based on their usage below
+    // TODO: define the different variants used below
+    Move(Point),
+    Echo(String),
+    ChangeColor((u8, u8, u8)), // make it a tuple
+    Quit,
 }
 
 struct Point {
