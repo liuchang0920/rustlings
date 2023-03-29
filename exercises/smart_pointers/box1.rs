@@ -16,8 +16,6 @@
 //
 // Execute `rustlings hint box1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 use List::{Cons, Nil};
 
 #[derive(PartialEq, Debug)]
