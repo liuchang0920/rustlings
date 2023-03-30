@@ -8,6 +8,11 @@
 //
 // Execute `rustlings hint iterators1` or use the `hint` watch subcommand for a hint.
 
+<<<<<<< HEAD:exercises/iterators/iterators1.rs
+=======
+// I AM NOT DONE
+
+>>>>>>> d60c1aaaf9e7d98807fdcbfdc73f3f130f1fefb6:exercises/standard_library_types/iterators1.rs
 fn main() {
     let my_fav_fruits = vec!["banana", "custard apple", "avocado", "peach", "raspberry"];
 

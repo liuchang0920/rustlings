@@ -18,6 +18,8 @@
 
 use List::{Cons, Nil};
 
+use List::{Cons, Nil};
+
 #[derive(PartialEq, Debug)]
 pub enum List {
     Cons(i32, Box<List>),
